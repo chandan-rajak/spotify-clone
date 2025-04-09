@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+    background-color: transparent;
+    overflow: hidden;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.navicon{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+}
+#searchtab{
+    background-color: rgba(70, 66, 66, 0.377);
+    height: 50px;
+    width: 35%;
+    border-radius: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+#searchtab img{
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+}
+#searchtab input{
+    align-self: center;
+    padding-left: 5px;
+    width: 80%;
+    height: 100%;
+    background-color:transparent;
+    border: none;
+    font-size: 17px;
+}
+.navtext{
+    align-self: center;
+    text-decoration: none;
+    font-weight: bold; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgb(156, 161, 164);
+    margin-left: 8px;
+}
+#download{
+    color: white;
+    margin-top: 1px;
+}
+.text{
+    color: rgb(225, 230, 234);
+    font-size: 30px; 
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+#download{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 25px;
+    color: rgb(160, 163, 166);
+}
+button{
+    height: 55px;
+    width: 110px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    
+}
+main{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 8px;
+    height: 80%;
+    width: 100%;
+    padding: 0px;
+}
+#box1{
+    position: fixed;
+    height: 80%;
+    width: 24%;
+    background-color: rgb(21, 21, 21);
+    border-radius: 10px;
+}
+#box2{
+    margin-left: 24.5%;
+    width: 74%;
+    height:100%;
+    background-color: rgb(21, 21, 21);
+    border-radius: 10px;
+}
+#library{
+    color: azure;
+    width: 100%;
+    height: 15%;
+    background-color:transparent ;
+}
+.lib_item{
+    background-color: transparent;
+    border: none;
+    margin-top: 20%px;
+    margin-left: 6%;
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#library button{
+    font-size: 30px;
+    margin-left:170px;
+    font-weight: lighter;
+    height: 35px;
+    width: 35px;
+}
+#creat{
+    background-color:transparent;
+    width: 100%;
+    height: 45%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.creatchild{
+    background-color: rgb(41, 41, 41);
+    height: 150px;
+    width: 95%;
+    margin: 20px 2.5%;
+    border-radius: 15px;
+  
+}
+.maintext{
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 15px;
+}
+.mainbutton{
+    height: 30px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 15px;
+    font-weight: bold;
+}
+#largebutton{
+    width: 150px;
+}
+#foot{
+    height: 40%;
+    width: 100%;
+    background-color:transparent;
+    padding-top: 30px;
+}
+.foot_a{
+    background-color: transparent;
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    transform: scale(1.05);
+}
+img:hover{
+    transform: scale(1.05);
+}
+a:hover{
+    transform:scale(1.05);
+    color:rgb(205, 201, 201)
+}
+#Cookies{
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration:underline;
+    margin-left: 0px;
+    font-size: 12px;
+    display: block;
+}
+#lang{
+ background-color: transparent;
+ height: 30px;
+ border-color: rgb(176, 177, 177);
+ color: aliceblue;
+ font-size: 15px;
+}
+#box2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: rgb(211, 208, 208);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.box2_parts{
+    height: 300px;
+    width: 98%;
+    background-color:transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.heading{
+    background-color: transparent;
+}
+.showall{
+    background-color: transparent;
+    margin-left: 930px;
+
+}
+.showall:hover{
+    transform: none;
+    color:aliceblue;
+}
+.trending_card{
+    height:250px;
+    width: 16.1%;
+    margin-left: 5px;
+    border-radius: 10px;
+    /* margin-top: px; */
+    background-color:transparent;
+}
+.photo{
+    display: flex;
+    justify-content: end;
+    height:60%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    background-size:contain;
+    background-repeat:repeat;
+    background-position: center;
+}
+#finding_her{
+    background-image: url(finding_her.jfif);
+    
+}
+#paro{
+    background-image: url(paro.jfif);
+}
+#khatole{
+    background-image: url(khatole.jpg);
+}
+#kanimaa{
+    background-image: url(retro.jpg);
+}
+#jhol{
+    background-image: url(jhol1.jfif);
+}
+#maand{
+    background-image: url(maand.jpg);
+}
+.photo h1{
+    
+    align-self: self-end;
+    background-color:transparent ;
+    height: 50px;
+    width: 60px;
+    /* mix-blend-mode: multiply; */
+    visibility: hidden;
+}
+.trending_card:hover{
+    background-color: rgb(29, 29, 29);
+}
+.trending_card p:hover{
+    text-decoration: underline;
+}
+.trending_card:hover h1{
+    visibility:visible;
+}
+.trending_card h3{
+    background-color: transparent;
+}
+p{
+    background-color: transparent;
+}
+.round{
+    border-radius: 50%;
+}
+#pritam{
+    background-image: url(pritam.jfif);
+}
+#a_r{
+    background-image: url(A.R.-Rahman.jpg);
+}
+#arjit{
+    background-image: url(arjit.jpg);
+}
+#s_j{
+    background-image: url(s_j.webp);
+}
+#v_s{
+    background-image: url(v-s.jpg);
+}
+#a_a{
+    background-image: url(a_a.jfif);
+}
+#sanam{
+    background-image: url(Sanam.jpg);
+}
+#yeh_jawaani{
+    background-image: url(yeh_ja.jpg);
+}
+#goat{
+    background-image: url(goat.jfif);
+}
+#Aashiqui{
+    background-image: url(aashiqui.jfif);
+}
+#glory{
+    background-image: url(glory.jfif);
+}
+#aankh{
+    background-image: url(aankh.jpg);
+}
+#arjit_radio{
+    background-image: url(arjit_radio.jfif);
+}
+#diljit{
+    background-image: url(diljit.jfif);
+}
+#shreya{
+    background-image: url(shreya.jfif);
+}
+#kk{
+    background-image: url(kk.jfif);
+}
+#masoom{
+    background-image: url(masoom.jfif);
+}
+#kishore{
+    background-image: url(kishore.jfif);
+}
+#top_global{
+    background-image: url(top_global.jpg);
+}
+#top_india{
+    background-image: url(top_india.jpg);
+}
+#top_50g{
+    background-image: url(top_50g.jpg);
+}
+#top_50i{
+    background-image: url(top_50i.jpg);
+}
+#viral_50g{
+    background-image: url(viral_g.jpg);
+}
+#viral_50i{
+    background-image: url(viral_i.jfif);
+}
+#box2_footer {
+    height: 250px;
+}
+.footer_item ul{
+    margin-left: 5px;
+}
+.footer_a{
+    text-decoration: none;
+    color: rgb(200, 199, 199);
+    display: block;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#box2_footer div{
+    margin-right: 60px;
+    margin-top: 25px;
+    height: 200px;
+}
+#box2_footer div a:hover{
+    transform: scale(1);
+    text-decoration: underline;
+}
+#company{
+    margin-left: 10px;
+}
+#copyright{
+    height: 100px;
+    border-top: 0.5px solid rgb(128, 128, 128);
+    width: 98%;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#socal i{
+    font-size:25px;
+    margin-left: 20px;
+    
+}
+#socal i:hover{
+    background-color: rgb(99, 99, 98);
+    
+}

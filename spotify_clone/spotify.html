@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="spotify_logo.webp">
+    <title>Spotify- Web Player: Music for you</title>
+    <link href="spotify.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+       <nav id="nav1">
+         <img class="navicon" src="spotifybwlogo.jpg" alt="SPOTIFY">
+         <img class="navicon" src="home_bwicon.jpg" alt="home">
+         <div id="searchtab">
+          <img class="navicon" src="whitesearch_icon.png" alt="search">
+          <input type="text" placeholder="what do you want to play?"> 
+         </div>
+         <a href="#" class="navtext">Premium</a>
+         <a href="#" class="navtext">Support</a>
+         <a href="#" class="navtext">Download</a>
+         <h1 class="text">|</h1>
+         
+         <a href="#" class="text , navtext" id="download">⤓ Instal App</a>
+         <a href="#" class="text , navtext" id="download">Sign up</a>
+         <button type="button">Login</button>
+       </nav>
+    </header>
+    <main>
+      <div id="box1">
+       <div id="library">
+        <h4 class="lib_item">Your Library</h4>
+        <button class="lib_item">+</button>
+       </div>
+       <div id="creat">
+        <div class="creatchild">
+          <h4 class="maintext">Creat your first playlist</h4>
+          <h5 class="maintext">It's easy, we'll help you</h5>
+          <button class="mainbutton">Create Playlist</button>
+        </div>
+        <div class="creatchild">
+          <h4 class="maintext">Let's find some podcasts to follow</h4>
+          <h5 class="maintext">We'll keep you updated on new episodes </h5>
+          <button class="mainbutton" id="largebutton">Browse podcasts</button>
+        </div>
+       </div>
+       <div id="foot">
+        <a href="#" class="foot_a">Legal</a>
+        <a href="#" class="foot_a">Safety & Privacy center</a>
+        <a href="#" class="foot_a">Privacy Policy</a>
+        <a href="#" class="foot_a">Cookies</a>
+        <a href="#" class="foot_a">About Ads</a>
+        <a href="#" class="foot_a">Accessibility</a>
+        <button id="Cookies">Cookies</button>
+        <button id="lang">🌐 &nbsp; English</button>
+       </div>
+      </div>
+      <div id="box2">
+        <div class="box2_parts">
+          <h2 class="heading">Trending songs</h2>
+          <a class="showall">show all</a>
+          <div class="trending_card">
+            <div class="photo" id="finding_her">
+              <h1>▶️</h1>
+            </div>
+            <h3>Finding Her</h3>
+            <p>Kushagra, bharath,seaheal</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="paro">
+              <h1>▶️</h1>
+            </div>
+            <h3>Paro</h3>
+            <p>Aditya Rikhari,<br>UNPLG'D</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="khatole">
+              <h1>▶️</h1>
+            </div>
+            <h3>2 khatole (lofi Mix)</h3>
+            <p>Masoom sharma</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="kanimaa"> 
+              <h1>▶️</h1>
+            </div>
+            <h3>Kanimaa (From "Retro")</h3>
+            <p>Santhosh Narayanan, The Indian choral...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="jhol">
+              <h1>▶️</h1>
+            </div>
+            <h3>Jhol</h3>
+            <p>Maanu, Annural Khalid</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="maand">
+             <h1>▶️</h1>
+            </div>
+            <h3>Maand</h3>
+            <p>Bayaan,Hasan Raheem,Rovalio</p>
+          </div>
+        </div>
+        <div class="box2_parts" id="artist">
+          <h2 class="heading">Popular artists</h2>
+          <a class="showall">Show all</a>
+          <div class="trending_card">
+            <div class="photo , round" id="pritam">
+            </div>
+            <h3>Pritam</h3>
+            <p>Artist</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo , round" id="a_r">
+            </div>
+            <h3>A.R. Rahman</h3>
+            <p>Artist</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo , round" id="arjit"></div>
+            <h3>Arjit Singh</h3>
+            <p>Artist</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo , round" id="s_j"></div>
+            <h3>Sachin-Jigar</h3>
+            <p>Artist</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo , round" id="v_s"></div>
+            <h3>Vishal-Shekhar</h3>
+            <p>Artist</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo , round" id="a_a"></div>
+            <h3>Atif Aslam</h3>
+            <p>Artist</p>
+          </div>
+        </div>
+        <div class="box2_parts" id="popular">
+          <h2 class="heading">Popular albums and singers</h2>
+          <a class="showall">show all</a>
+          <div class="trending_card">
+            <div class="photo" id="sanam">
+              <h1>▶️</h1>
+            </div>
+            <h3>Sanam Teri Kasam</h3>
+            <p>Himesh Reshammiya, Sameer Anjaan...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="yeh_jawaani">
+              <h1>▶️</h1>
+            </div>
+            <h3>Yeh Jawaani Hai Deewani</h3>
+            <p>Pritam</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="goat">
+              <h1>▶️</h1>
+            </div>
+            <h3>Young G.O.A.T</h3>
+            <p>Cheema Y, Gur Sidhu</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="Aashiqui"> 
+              <h1>▶️</h1>
+            </div>
+            <h3>Aashiqui 2</h3>
+            <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="glory">
+              <h1>▶️</h1>
+            </div>
+            <h3>Glory</h3>
+            <p>Yo Yo Honey Singh</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="aankh">
+             <h1>▶️</h1>
+            </div>
+            <h3>Aankh</h3>
+            <p>Sunidhi Chauhan</p>
+          </div>
+        </div>
+        <div class="box2_parts" id="radio">
+          <h2 class="heading">Popular radio</h2>
+          <a class="showall">show all</a>
+          <div class="trending_card">
+            <div class="photo" id="arjit_radio">
+              <h1>▶️</h1>
+            </div>
+            <p>With Sachin-Jigar, Amit TRivedi,..</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="diljit">
+              <h1>▶️</h1>
+            </div>
+            <p>With Karan Aujla, Shubh, Sidhu Moos...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="shreya">
+              <h1>▶️</h1>
+            </div>
+            <p>With A.R. Rahman, Vishal-Shekhar,Ati...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="kk"> 
+              <h1>▶️</h1>
+            </div>
+            <p>WIth Armaan Malik, Mohit Chauhan, Ati...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="masoom">
+              <h1>▶️</h1>
+            </div>
+            <p>With Khasa Aala Chahar, Sumit Part...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="kishore">
+             <h1>▶️</h1>
+            </div>
+            <p>With Mohammad Rafi,Mukesh,...</p>
+          </div>
+        </div>
+        <div class="box2_parts" id="featured">
+          <h2 class="heading">Featured charts</h2>
+          <a class="showall">show all</a>
+          <div class="trending_card">
+            <div class="photo" id="top_global">
+              <h1>▶️</h1>
+            </div>
+            <p>Your weekly update of the most played...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="top_india">
+              <h1>▶️</h1>
+            </div>
+            <p>Your weekly update of the most played...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="top_50g">
+              <h1>▶️</h1>
+            </div>
+            <p>Your daily update of the most played...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="top_50i"> 
+              <h1>▶️</h1>
+            </div>
+            <p>Your daily update of the most played...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="viral_50g">
+              <h1>▶️</h1>
+            </div>
+            <p>Your daily update of the viral track...</p>
+          </div>
+          <div class="trending_card">
+            <div class="photo" id="viral_50i">
+             <h1>▶️</h1>
+            </div>
+            <p>Your daily update of the most viral track...</p>
+            
+          </div>
+        </div>
+        <div class="box2_parts" id="box2_footer">
+         <div id="company">
+           <h4 class="footer_item">Company</h4>
+           <a href="#" class="footer_a">About</a>
+           <a href="#" class="footer_a">Jobs</a>
+           <a href="#" class="footer_a">For the Records</a>
+         </div>
+         <div id="communities">
+          <h4 class="footer_item">Communities</h4>
+          <a href="#" class="footer_a">For Artists</a>
+          <a href="#" class="footer_a">Developers</a>
+          <a href="#" class="footer_a">Advertising</a>
+          <a href="#" class="footer_a">Investors</a>
+          <a href="#" class="footer_a">Vendors</a>
+         </div>
+         <div id="links">
+          <h4 class="footer_item">Useful_Links</h4>
+          <a href="#" class="footer_a">Support</a>
+          <a href="#" class="footer_a">Free Mobile App</a>
+         </div>
+         <div id="plans">
+          <h4 class="footer_item">Spotify Plans</h4>
+          <a href="#" class="footer_a">Premium Individual</a>
+          <a href="#" class="footer_a">Premium Duo</a>
+          <a href="#" class="footer_a">Premium Family</a>
+          <a href="#" class="footer_a">Premium Student</a>
+          <a href="#" class="footer_a">Spotify Free</a>
+         </div>
+         <div id="socal">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+         </div>
+        </div>
+        <div id="copyright">
+          <h5 class="footer_item">© 2025 Spotify AB</h5>
+         </div>
+      </div>
+    </main>
+  
+</body>
+</html>
